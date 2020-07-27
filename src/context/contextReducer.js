@@ -1,3 +1,9 @@
+/****
+ * 
+ *  ROCK PAPER SCISSORS LIZARD SPOCK Game
+ * 
+ *  @AUthor Saurabh Shankariya <sjshankariya@gmail.com>
+ */
 import * as actionTypes from './actionConstants';
 import * as helper from './contextUtility';
 

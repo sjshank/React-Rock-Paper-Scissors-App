@@ -1,3 +1,9 @@
+/****
+ * 
+ *  ROCK PAPER SCISSORS LIZARD SPOCK Game
+ * 
+ *  @AUthor Saurabh Shankariya <sjshankariya@gmail.com>
+ */
 import React, { useReducer, useEffect, useCallback, useRef } from 'react';
 import * as AppConstants from '../config/appConstant';
 import * as actionTypes from './actionConstants';

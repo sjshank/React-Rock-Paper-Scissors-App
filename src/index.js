@@ -1,3 +1,9 @@
+/****
+ * 
+ *  ROCK PAPER SCISSORS LIZARD SPOCK Game
+ * 
+ *  @AUthor Saurabh Shankariya <sjshankariya@gmail.com>
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
