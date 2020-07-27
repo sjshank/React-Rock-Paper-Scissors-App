@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import "./style.css";
 
 /**
@@ -18,6 +19,11 @@ const Player = (props) => {
             </div>
         </div>
     )
+};
+
+Player.propTypes = {
+    label: propTypes.string.isRequired,
+    player: propTypes.object.isRequired,
 };
 
 export default Player;

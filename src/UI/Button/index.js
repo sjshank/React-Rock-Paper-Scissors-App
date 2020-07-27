@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import "./style.css";
 
 /**
@@ -14,4 +15,8 @@ const Button = (props) => {
     );
 };
 
+Button.propTypes = {
+    label: propTypes.string.isRequired,
+    onClickMode: propTypes.func.isRequired
+};
 export default React.memo(Button);

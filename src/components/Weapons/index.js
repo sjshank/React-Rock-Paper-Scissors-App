@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from 'prop-types';
 import Weapon from "./Weapon";
 import "./style.css";
 
@@ -31,4 +32,8 @@ const Weapons = (props) => {
     )
 };
 
+Weapons.propTypes = {
+    gameState: propTypes.object.isRequired,
+    onWeaponSelected: propTypes.func.isRequired
+};
 export default React.memo(Weapons);

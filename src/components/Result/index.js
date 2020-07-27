@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import * as AppConstants from "../../config/appConstant";
 import "./style.css";
 
@@ -18,5 +19,7 @@ const Result = (props) => {
         </article>
     )
 }
-
+Result.propTypes = {
+    gameMode: propTypes.string.isRequired,
+};
 export default React.memo(Result);

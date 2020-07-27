@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import "./style.css";
 
 /**
@@ -15,4 +16,8 @@ const Weapon = (props) => {
     );
 };
 
+Weapon.propTypes = {
+    weapon: propTypes.string.isRequired,
+    weaponSelectionHandler: propTypes.func.isRequired
+};
 export default React.memo(Weapon);
