@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+header,
+article,
+main,
+section {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  margin-top: 0;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+}
+
+.app {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/** Grid section **/
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+.flex-col {
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+.flex-col-full {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+}
+.flex-col-short {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  display: none;
+}
+
+/*** Content, Text alignment**/
+.content-at-center {
+  -webkit-box-pack: center !important;
+  justify-content: center !important;
+}
+
+/*** Display**/
+.display-flex {
+  display: flex !important;
+}
+
+/*** Margin-Padding**/
+.margin-x_large {
+  margin: 1.5rem !important;
+}
+.margin-large {
+  margin: 1.5rem !important;
+}
+.margin-medium {
+  margin: 1rem !important;
+}
+.margin-small {
+  margin: 0.5rem !important;
+}
+.margin-x_small {
+  margin: 0.25rem !important;
+}
+.marginTop-large {
+  margin-top: 1.5rem !important;
+}
+.marginTop-small {
+  margin-top: 0.5rem !important;
+}
+
+.padding-x_large {
+  padding: 1.5rem !important;
+}
+.padding-large {
+  padding: 1.5rem !important;
+}
+.padding-medium {
+  padding: 1rem !important;
+}
+.padding-small {
+  padding: 0.5rem !important;
+}
+.padding-x_small {
+  padding: 0.25rem !important;
+}
+.paddingLeft-medium {
+  padding-left: 1rem !important;
+}
+.paddingLeft-x_small {
+  padding-left: 0.25rem !important;
+}
+
+/**** Media Queries for Desktop and Tablet ***/
+@media (min-width: 992px) {
+  .flex-col-full {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .flex-col-short {
+    -webkit-box-flex: 0;
+    flex: 0 0 12%;
+    max-width: 12%;
+    display: block;
+  }
+  .container,
+  .fluid {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .flex-col-full {
+    -webkit-box-flex: 0;
+    flex: 0 0 29%;
+    max-width: 29%;
+  }
+  .flex-col-short {
+    -webkit-box-flex: 0;
+    flex: 0 0 6%;
+    max-width: 6%;
+    display: block;
+  }
+  .container,
+  .fluid {
+    max-width: 720px;
+  }
+}

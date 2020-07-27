@@ -1,0 +1,35 @@
+/*** Scoreboard class **/
+.scoreboard-section {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 2px solid #e79c2a;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+  height: 120px;
+}
+.scoreboard-section .scoreboard-body {
+  flex: 1 1 auto;
+  padding: 0.75rem;
+}
+.scoreboard-section .scoreboard-box ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.scoreboard-section .scoreboard-box ul li {
+  padding: 3px 3px;
+  width: 33%;
+}
+.scoreboard-section .scoreboard-box ul li h6 {
+  font-size: 0.75rem;
+}

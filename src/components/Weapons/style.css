@@ -1,0 +1,5 @@
+/*** Weapon class ***/
+.weapons-section .weapons-flex-flow {
+    flex-flow: wrap;
+    justify-content: center;
+  }

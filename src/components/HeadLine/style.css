@@ -1,0 +1,54 @@
+/** Header class***/
+.header-section {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+.header-section .header-label {
+  text-transform: Uppercase;
+  font-family: "Fredericka the Great", sans-serif;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin: 0;
+  line-height: 1.2;
+  color: inherit;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headline-hr {
+  margin-top: auto;
+  border: 0;
+  border-top: 2px solid #e79c2a;
+  margin-bottom: 1rem;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  display: block;
+}
+
+/**** Media Queries for Desktop and Tablet ***/
+@media (min-width: 992px) {
+  .header-section {
+    height: 110px;
+  }
+}
+
+@media (min-width: 665px) and (max-width: 991.98px) {
+  .header-section {
+    height: 120px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 664.98px) {
+  .header-section {
+    height: 160px;
+  }
+}

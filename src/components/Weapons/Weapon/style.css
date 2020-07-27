@@ -1,0 +1,21 @@
+.weapon-section .weapon-box {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #e79c2a;
+  border: 2px solid #141e30;
+  color: #141e30;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+}
+.weapon-section .weapon-box:hover {
+  color: #e79c2a;
+  background-color: #141e30;
+  border: 2px solid #e79c2a;
+}
+.weapon-section .weapon-box .fa {
+  color: #141e30;
+}
+.weapon-section .weapon-box:hover .fa {
+  color: #e79c2a;
+}
